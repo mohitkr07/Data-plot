@@ -1,0 +1,49 @@
+/* font-family: 'Roboto', sans-serif;
+font-family: 'Ubuntu', sans-serif; */
+
+*{
+    text-align: center;
+    /* display: flex; */
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    
+}
+body{
+    background-color: rgb(200, 204, 241);
+}
+
+
+#root{
+    height: auto;
+    width: 80rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+}
+.header{
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header .box{
+    height: 5rem;
+    width:20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    background-color: rgb(224, 115, 64);
+    border-radius: 7px;
+    color: rgb(251, 222, 222);
+}
+
+.graph{
+    padding-top: 3rem;
+    padding-right: 3rem;
+    background-color: #fff;
+    border-radius: 7px;
+}
